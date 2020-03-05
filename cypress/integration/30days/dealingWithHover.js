@@ -5,7 +5,7 @@ describe("Product searching", () => {
         cy.visit('http://automationpractice.com/index.php');
     })
 
-    it.only('Main page - verify if "View my shopping cart" drop-down is displayed on hover and "Check out" button can be clicked' , () => {
+    it('Main page - verify if "View my shopping cart" drop-down is displayed on hover and "Check out" button can be clicked' , () => {
         //Get all "Add to cart buttons" from main page
        //and click on firts button to add product to cart.
        cy.get('.ajax_add_to_cart_button').first().click();
