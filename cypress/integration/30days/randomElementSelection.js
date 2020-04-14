@@ -24,8 +24,8 @@ context('Testing check box', () => {
         cy.get('.checkbox').its('length').then(ele => {
             const listElementNumber = randomGenerator(ele)
 
-            cy.get('.checkbox').eq(listElementNumber).check().parent().should('have.class','checked').then((checkbox) => {
-                cy.get(checkbox).find('.checkbox').uncheck().parent().should('not.have.class', 'checked')
+            cy.get('.checkbox').eq(listElementNumber).check().parent().should('have.class','checked').then(($checkbox) => {
+                cy.get($checkbox).find('.checkbox').uncheck().parent().should('not.have.class', 'checked')
             })
 
         })

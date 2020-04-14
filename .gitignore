@@ -1,1 +1,5 @@
 node_modules
+cypress/reports/
+mochawesome-report/
+report.json
+cypress/videos/

@@ -1,0 +1,46 @@
+{
+    "products01": {
+      "product": [
+        "dress",
+        "xxxTT^&LL",
+        " "
+      ],
+      "returned_info": [
+        "Sort by",
+        "No results",
+        "No results"
+      ]
+    },
+    "products02": [
+      {
+        "product": "dress",
+        "returned_info": "Sort by"
+      },
+      {
+        "product": "xxxTT^&LL",
+        "returned_info": "No results"
+      },
+      {
+        "product": " ",
+        "returned_info": "No results"
+      }
+    ],
+    "myObj01": {
+      "name": "John",
+      "age": 30,
+      "cars": {
+        "car1": "Ford",
+        "car2": "BMW",
+        "car3": "Fiat"
+      }
+    },
+    "myObj02": {
+      "name": "John",
+      "age": 30,
+      "cars": [
+        "Ford",
+        "BMW",
+        "Fiat"
+      ]
+    }
+  }
